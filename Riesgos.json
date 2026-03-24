@@ -1,0 +1,253 @@
+{
+"riesgos":[
+  { "código": "01", "descripción": "CAÍDA DE PERSONAS A DISTINTO NIVEL" },
+  { "código": "0101", "descripción": "Caída por trabajos en altura" },
+  { "código": "0102", "descripción": "Caída de espacios no protegidos" },
+  { "código": "0103", "descripción": "Caída en Zanjas, Pozos u otros desniveles" },
+
+  { "código": "02", "descripción": "CAÍDA DE PERSONA AL MISMO NIVEL" },
+  { "código": "0201", "descripción": "Caída por suelos o plataformas deslizantes" },
+  { "código": "0202", "descripción": "Caída por tropiezo con obstáculo" },
+
+  { "código": "03", "descripción": "CAÍDA DE OBJETOS POR DESPLOME O DERRUMBE" },
+  { "código": "0301", "descripción": "Desplome de elementos fijos" },
+  { "código": "0302", "descripción": "Derrumbamiento o vuelco de materiales" },
+  { "código": "0303", "descripción": "Derrumbamiento del terreno" },
+
+  { "código": "04", "descripción": "CAÍDA DE OBJETOS EN MANIPULACIÓN" },
+  { "código": "0401", "descripción": "Caída de materiales o piezas en manipulación" },
+  { "código": "0402", "descripción": "Caída de equipos o herramientas" },
+
+  { "código": "05", "descripción": "CAÍDA DE OBJETOS DESPRENDIDOS" },
+  { "código": "0501", "descripción": "Caída de materiales suspendidos" },
+  { "código": "0502", "descripción": "Caída de objetos o materiales almacenados" },
+  { "código": "0503", "descripción": "Caída de equipos, herramientas" },
+  { "código": "0504", "descripción": "Caída de objetos o materiales" },
+
+  { "código": "06", "descripción": "PISADAS SOBRE OBJETOS" },
+  { "código": "0601", "descripción": "Pisada sobre objeto o desnivel" },
+  { "código": "0602", "descripción": "Pisada sobre objetos cortantes o punzantes" },
+
+  { "código": "07", "descripción": "GOLPES CONTRA OBJETOS INMÓVILES" },
+  { "código": "0701", "descripción": "Choques con elementos fijos" },
+  { "código": "0702", "descripción": "Choques con materiales u objetos" },
+
+  { "código": "08", "descripción": "CHOQUES CONTRA OBJETOS MÓVILES" },
+  { "código": "0801", "descripción": "Choque contra elementos móviles" },
+  { "código": "0802", "descripción": "Choque contra objetos en movimiento" },
+
+  { "código": "09", "descripción": "GOLPES/CORTES POR OBJETO O HERRAMIENTA" },
+  { "código": "0901", "descripción": "Golpes con objetos" },
+  { "código": "0902", "descripción": "Golpes con herramientas" },
+  { "código": "0903", "descripción": "Cortes con herramientas o útiles" },
+  { "código": "0904", "descripción": "Cortes con objetos o materiales" },
+  { "código": "0905", "descripción": "Pinchazos" },
+
+  { "código": "10", "descripción": "PROYECCIÓN DE SÓLIDOS, LÍQUIDOS O GASES" },
+  { "código": "1001", "descripción": "Proyección de elementos o piezas desprendidas" },
+  { "código": "1002", "descripción": "Proyección de fragmentos de piezas o herramientas" },
+  { "código": "1003", "descripción": "Proyección de partículas sólidas" },
+  { "código": "1004", "descripción": "Proyección de líquidos a presión" },
+  { "código": "1005", "descripción": "Proyección de gases o aire comprimidos" },
+  { "código": "1006", "descripción": "Salpicaduras y otras proyecciones de líquidos" },
+
+  { "código": "11", "descripción": "ATRAPAMIENTO POR O ENTRE OBJETOS" },
+  { "código": "1101", "descripción": "Atrapamiento por elementos móviles de equipos" },
+  { "código": "1102", "descripción": "Atrapamiento por o entre objetos manipulados" },
+  { "código": "1103", "descripción": "Atrapamiento entre elementos por acción manual" },
+
+  { "código": "12", "descripción": "ATRAPAMIENTO POR VUELCO DE EQUIPOS" },
+  { "código": "1201", "descripción": "Atrapamiento por vuelco de máquina" },
+  { "código": "1202", "descripción": "Atrapamiento por vuelco de vehículo" },
+
+  { "código": "13", "descripción": "SOBREESFUERZOS" },
+  { "código": "1301", "descripción": "Sobreesfuerzos continuados" },
+  { "código": "1302", "descripción": "Sobreesfuerzos ocasionales" },
+  { "código": "1303", "descripción": "Sobreesfuerzos por posturas forzadas" },
+
+  { "código": "14", "descripción": "EXPOSICIÓN A AMBIENTES EXTREMOS" },
+  { "código": "1401", "descripción": "Exposición a ambientes calurosos" },
+  { "código": "1402", "descripción": "Exposición a ambientes fríos" },
+  { "código": "1403", "descripción": "Exposición a la intemperie" },
+  { "código": "1404", "descripción": "Riesgos por trabajos en medio hiperbárico" },
+
+  { "código": "15", "descripción": "CONTACTOS TÉRMICOS" },
+  { "código": "1501", "descripción": "Contacto con superficies calientes" },
+  { "código": "1502", "descripción": "Contacto con superficies frías" },
+  { "código": "1503", "descripción": "Contacto con llamas abiertas" },
+  { "código": "1504", "descripción": "Proyección de sólidos a alta temperatura" },
+  { "código": "1505", "descripción": "Proyección de líquidos calientes" },
+  { "código": "1506", "descripción": "Proyección de humos, vapores o gases licuados" },
+
+  { "código": "16", "descripción": "CONTACTOS ELÉCTRICOS" },
+  { "código": "1601", "descripción": "Contactos eléctricos directos" },
+  { "código": "1602", "descripción": "Contactos eléctricos indirectos" },
+  { "código": "1603", "descripción": "Descargas de electricidad estática" },
+
+  { "código": "17", "descripción": "EXPOSICIÓN A SUSTANCIAS QUIMICAS" },
+  { "código": "1701", "descripción": "Inhalación de sustancias nocivas o tóxicas" },
+  { "código": "1702", "descripción": "Ingestión de sustancias químicas" },
+  { "código": "1703", "descripción": "Asfixia, Ahogamiento en atmósferas irrespirables" },
+  { "código": "1704", "descripción": "Accidentes graves por fuga de gases o vapores" },
+
+  { "código": "18", "descripción": "CONTACTO CON SUSTANCIAS QUÍMICAS" },
+  { "código": "1801", "descripción": "Contacto con sustancias cáusticas o corrosivas" },
+  { "código": "1802", "descripción": "Proyección de líquidos agresivos o irritantes" },
+  { "código": "1803", "descripción": "Proyección de gases o vapores" },
+  { "código": "1804", "descripción": "Accidentes graves por derrame de sustancias" },
+
+  { "código": "19", "descripción": "ACCIDENTES POR EXPOSICIÓN A RADIACIONES" },
+  { "código": "1901", "descripción": "Radiaciones Ionizantes" },
+  { "código": "1902", "descripción": "Radiaciones no Ionizantes" },
+
+  { "código": "20", "descripción": "EXPLOSIONES" },
+  { "código": "2001", "descripción": "Explosiones de polvo" },
+  { "código": "2002", "descripción": "Explosiones por atmósferas deflagrantes" },
+  { "código": "2003", "descripción": "Explosiones de equipos o aparatos a presión" },
+  { "código": "2004", "descripción": "Explosiones debidas a explosivos sólidos" },
+  { "código": "2005", "descripción": "Explosiones de materiales inflamables" },
+  { "código": "2006", "descripción": "Accidentes graves por explosión" },
+
+  { "código": "21", "descripción": "INCENDIOS" },
+  { "código": "2101", "descripción": "Incendio por factores de ignición" },
+  { "código": "2102", "descripción": "Propagación de incendios por materias inflamables" },
+  { "código": "2103", "descripción": "Propagación de incendios por medidas insuficientes" },
+  { "código": "2104", "descripción": "Evacuación dificultosa en caso de incendio" },
+  { "código": "2105", "descripción": "Accidentes graves por incendio" },
+
+  { "código": "22", "descripción": "ACCIDENTES CAUSADOS POR SERES VIVOS" },
+  { "código": "2201", "descripción": "Accidentes debidos a personas" },
+  { "código": "2202", "descripción": "Accidentes debidos a animales" },
+  { "código": "2203", "descripción": "Accidentes debidos a insectos-plantas" },
+  { "código": "2204", "descripción": "Agresiones, Sabotajes, Atracos, Intrusismo" },
+
+  { "código": "23", "descripción": "ATROPELLOS O GOLPES CON VEHÍCULOS" },
+  { "código": "2301", "descripción": "Atropello por vehículo" },
+  { "código": "2302", "descripción": "Choques o golpes del vehículo" },
+  { "código": "2303", "descripción": "Accidentes de circulación durante el trabajo" },
+  { "código": "2399", "descripción": "Accidentes in itinere" },
+
+  { "código": "24", "descripción": "ACCIDENTES POR CAUSAS NO CODIFICADAS" },
+  { "código": "2401", "descripción": "Patologías no traumáticas por causas fisiológicas" },
+  { "código": "2402", "descripción": "Riesgos por agentes de la naturaleza" },
+  { "código": "2403", "descripción": "Otros riesgos no codificados" },
+
+  { "código": "31", "descripción": "EXPOSICIÓN A CONTAMINANTES QUÍMICOS" },
+  { "código": "3101", "descripción": "Exposición a polvo, fibras" },
+  { "código": "3102", "descripción": "Exposición a humos, nieblas" },
+  { "código": "3103", "descripción": "Exposición a gases, vapores" },
+  { "código": "3104", "descripción": "Exposición a agentes cancerígenos" },
+  { "código": "3105", "descripción": "Exposición a agentes mutagénicos" },
+  { "código": "3106", "descripción": "Exposición a agentes sensibilizantes" },
+  { "código": "3107", "descripción": "Exposición a agentes tóxicos para la reproducción" },
+
+  { "código": "32", "descripción": "EXPOSICIÓN A CONTAMINANTES BIOLÓGICOS" },
+  { "código": "3201", "descripción": "Exposición a Virus" },
+  { "código": "3202", "descripción": "Exposición a Bacterias" },
+  { "código": "3203", "descripción": "Exposición a hongos" },
+  { "código": "3204", "descripción": "Exposición a Parásitos" },
+  { "código": "3205", "descripción": "Exposición a organismos genéticamente modificados" },
+  { "código": "3206", "descripción": "Exposición no deliberada a agentes biológicos" },
+  { "código": "3207", "descripción": "Exposición a SARS-CoV-2" },
+
+  { "código": "33", "descripción": "EXPOSICIÓN A RUIDOS" },
+  { "código": "3301", "descripción": "Exposición a ruido continuo" },
+  { "código": "3302", "descripción": "Exposición de ruido de impacto" },
+  { "código": "3303", "descripción": "Exposición a ultrasonidos e infrasonidos" },
+
+  { "código": "34", "descripción": "EXPOSICIÓN A VIBRACIONES" },
+  { "código": "3401", "descripción": "Exposición a vibraciones en mano - brazo" },
+  { "código": "3402", "descripción": "Exposición a vibraciones del cuerpo - de pie" },
+  { "código": "3403", "descripción": "Exposición a vibraciones de cuerpo - sentado" },
+
+  { "código": "35", "descripción": "ESTRÉS TÉRMICO" },
+  { "código": "3501", "descripción": "Estrés térmico por calor" },
+  { "código": "3502", "descripción": "Estrés térmico por frío" },
+
+  { "código": "36", "descripción": "EXPOSICIÓN/CONTAMINACIÓN A RADIACIONES IONIZANTES" },
+  { "código": "3601", "descripción": "Radiación ALFA" },
+  { "código": "3602", "descripción": "Radiación BETA" },
+  { "código": "3603", "descripción": "Radiación GAMMA" },
+  { "código": "3604", "descripción": "Rayos X" },
+  { "código": "3605", "descripción": "Radiaciones Ultravioletas Ionizantes" },
+
+  { "código": "37", "descripción": "EXPOSICIÓN A RADIACIONES NO IONIZANTES" },
+  { "código": "3701", "descripción": "Exposición a rayos Ultravioletas no Ionizantes" },
+  { "código": "3702", "descripción": "Exposición a Radiaciones visibles" },
+  { "código": "3703", "descripción": "Exposición a rayos Infrarrojos" },
+  { "código": "3704", "descripción": "Exposición a rayos Laser, Máser" },
+  { "código": "3705", "descripción": "Exposiciones a radiaciones electromagnéticas" },
+  { "código": "3706", "descripción": "Exposición a microondas" },
+
+  { "código": "39", "descripción": "EXPOSICIÓN A OTROS AGENTES HIGIÉNICOS" },
+  { "código": "3901", "descripción": "Energía electroestática" },
+  { "código": "3902", "descripción": "Exposición combinada a agentes químicos y físicos" },
+
+  { "código": "41", "descripción": "CARGA DE TRABAJO FÍSICA" },
+  { "código": "4101", "descripción": "Carga estática por posturas" },
+  { "código": "4102", "descripción": "Carga dinámica por esfuerzo" },
+  { "código": "4103", "descripción": "Carga física por exigencias de la tarea" },
+  { "código": "4104", "descripción": "Carga física por movimientos repetitivos" },
+
+  { "código": "42", "descripción": "CARGA DE TRABAJO MENTAL" },
+  { "código": "4201", "descripción": "Carga mental por tratamiento de la información" },
+  { "código": "4202", "descripción": "Carga mental por contenidos de la tarea" },
+  { "código": "4203", "descripción": "Carga mental por ritmos de trabajo" },
+  { "código": "4204", "descripción": "Carga mental por horarios de trabajo" },
+  { "código": "4205", "descripción": "Desempeño de rol" },
+
+  { "código": "43", "descripción": "INSATISFACCIÓN, DISCONFORT O FATIGA" },
+  { "código": "4301", "descripción": "Fatiga por insuficiente calidad del aire" },
+  { "código": "4302", "descripción": "Fatiga visual por condiciones de iluminación" },
+  { "código": "4303", "descripción": "Disconfort térmico por condiciones ambientales" },
+  { "código": "4304", "descripción": "Disconfort acústico por ambientes ruidosos" },
+  { "código": "4305", "descripción": "Disconfort o fatiga por vibraciones" },
+
+  { "código": "51", "descripción": "ACTITUD INAPROPIADA PARA EL TRABAJO" },
+  { "código": "5101", "descripción": "Actitud inapropiada por comunicación inadecuada" },
+  { "código": "5102", "descripción": "Actitud inapropiada por relaciones inadecuadas" },
+  { "código": "5103", "descripción": "Actitud inapropiada por motivación inadecuada" },
+  { "código": "5104", "descripción": "Relaciones interpersonales inadecuadas" },
+  { "código": "5105", "descripción": "Interés por el trabajador" },
+
+  { "código": "52", "descripción": "APTITUD INADECUADA PARA EL TRABAJO" },
+  { "código": "5201", "descripción": "Aptitud inadecuada por capacidad insuficiente" },
+  { "código": "5202", "descripción": "Aptitud inadecuada por falta de formación" },
+  { "código": "5203", "descripción": "Aptitud inadecuada por entrenamiento insuficiente" },
+
+  { "código": "53", "descripción": "FAVORECER SITUACIONES PELIGROSAS" },
+  { "código": "5301", "descripción": "Situación peligrosa por organización o recursos inadecuados" },
+  { "código": "5302", "descripción": "Situación peligrosa por criterios preventivos inadecuados" },
+  { "código": "5303", "descripción": "Situación peligrosa por análisis de riesgo insuficientes" },
+  { "código": "5304", "descripción": "Situación peligrosa por información o formación insuficiente" },
+  { "código": "5305", "descripción": "Situación peligrosa por controles preventivos insuficientes" },
+
+  { "código": "54", "descripción": "FATIGA LABORAL" },
+
+  { "código": "55", "descripción": "COMUNICACIÓN INADECUADA" },
+
+  { "código": "56", "descripción": "RIESGOS VINCULADOS AL TRABAJO A TURNOS Y TURNO NOCTURNO" },
+
+  { "código": "57", "descripción": "ESTRÉS LABORAL" },
+
+  { "código": "58", "descripción": "FAVORECER SITUACIONES DE RIESGO" },
+  { "código": "5801", "descripción": "Situación de riesgo por gestión preventiva inadecuada" },
+  { "código": "5802", "descripción": "Situación de riesgo por mantenimiento preventivo inadecuado" },
+  { "código": "5803", "descripción": "Situación de riesgo por orden y limpieza inadecuados" },
+  { "código": "5804", "descripción": "Situación de riesgo por organización o recursos inadecuados" },
+
+  { "código": "59", "descripción": "HERIDAS POR ARMA DE FUEGO" },
+
+  { "código": "60", "descripción": "EXIGENCIAS PSICOLÓGICAS" },
+  { "código": "6001", "descripción": "Exigencias psicológicas por requerimiento de aprendizaje" },
+  { "código": "6002", "descripción": "Exigencias psicológicas. Carga mental por rapidez de respuesta" },
+
+  { "código": "61", "descripción": "AUTONOMÍA TEMPORAL" },
+
+  { "código": "62", "descripción": "INCORRECTA INTEGRACIÓN DE LA PREVENCIÓN" },
+
+  { "código": "63", "descripción": "ROL" },
+  { "código": "6301", "descripción": "Conflicto de rol" },
+  { "código": "6302", "descripción": "Ambigüedad de rol" }
+]
+}
